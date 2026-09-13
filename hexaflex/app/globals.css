@@ -1,0 +1,32 @@
+:root {
+  --ink: #263248;
+  --muted: #526078;
+  --line: #dce1e9;
+  --paper: #f7f8fb;
+  --accent: #344764;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body), Arial, Helvetica, sans-serif;
+  line-height: 1.65;
+}
+.sector {
+  cursor: pointer;
+}
+.sector:hover {
+  fill: #2632480d;
+}
+.sector:focus-visible {
+  outline: none;
+  stroke: #263248;
+  stroke-width: 4;
+  stroke-dasharray: 5 3;
+}
